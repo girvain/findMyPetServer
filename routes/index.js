@@ -20,9 +20,11 @@ router.get('/all', (req, res, next) => {
 /**
  * Route to handle searching of pets
  */
-router.get('/find', (req, res, next) => {
+router.post('/find', (req, res, next) => {
+  console.log(req.body);
   // destructure the data to remove undefined vars
   var query = { ...req.body };
+  console.log(query);
   //name: { $regex: new RegExp(req.body.name, 'i') },
   Pet.find(query, (err, result) => {
     console.log(result);
