@@ -17,6 +17,25 @@ router.get('/all', (req, res, next) => {
   });
 });
 
+/**
+ * Route to handle searching of pets
+ */
+router.get('/find', (req, res, next) => {
+  // destructure the data to remove undefined vars
+  var query = { ...req.body };
+  //name: { $regex: new RegExp(req.body.name, 'i') },
+  Pet.find(query, (err, result) => {
+    console.log(result);
+    if (err) return next(err);
+    res.json(result);
+  });
+});
+
+/**
+ * This route takes a pet uplaod request, performs an http request to
+ * get the lat and lng from the address. Then adds them to the pet object
+ * and adds it to the database.
+ */
 router.post('/add-pet', (req, res, next) => {
   const newPet = {
     name: req.body.name,
@@ -50,6 +69,7 @@ router.post('/add-pet', (req, res, next) => {
 
   const mapURL = geoFormat.geoFormat(addrDataModel, apiKey);
 
+  // do the http request
   needle('get', mapURL)
     .then(res => {
       //console.log(res.body.results[0]);
@@ -73,51 +93,43 @@ router.post('/add-pet', (req, res, next) => {
       return res;
     })
     .catch(function(err) {
-      console.log('Call the locksmith!');
+      console.log('Error HTTP request to Google Map API request!');
     });
-  // Pet.create(newPet, (err, pet) => {
-  //   if (err) {
-  //     res.status = 403;
-  //   } else {
-  //     res.status = 200;
-  //     return res.json('Pet Added');
-  //   }
-  // });
   res.send('animal added');
 });
 
-router.get('/get-geo', (req, res, next) => {
-  const number = 9;
-  const street1 = 'glen';
-  const street2 = 'doll';
-  const town1 = 'East';
-  const town2 = 'Kilbride';
-  const city = 'Glasgow';
-  const apiKey = 'AIzaSyBTeTxxRv1A90-82vUJ0H-pKNHTNx7DE_A';
+// router.get('/get-geo', (req, res, next) => {
+//   const number = 9;
+//   const street1 = 'glen';
+//   const street2 = 'doll';
+//   const town1 = 'East';
+//   const town2 = 'Kilbride';
+//   const city = 'Glasgow';
+//   const apiKey = 'AIzaSyBTeTxxRv1A90-82vUJ0H-pKNHTNx7DE_A';
 
-  let mapURL = `https://maps.googleapis.com/maps/api/geocode/json?address=${number}+${street1}+${street2},
-+${town1}+${town2},+${city}&key=${apiKey}`;
+//   let mapURL = `https://maps.googleapis.com/maps/api/geocode/json?address=${number}+${street1}+${street2},
+// +${town1}+${town2},+${city}&key=${apiKey}`;
 
-  const testUrl =
-    'https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=' +
-    apiKey;
+//   const testUrl =
+//     'https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=' +
+//     apiKey;
 
-  needle.get(mapURL, (error, res) => {
-    //console.log(res.body.results[0]);
-    if (!error && res.statusCode == 200) {
-      console.log(res.body.results[0].geometry.location);
-    }
-  });
+//   needle.get(mapURL, (error, res) => {
+//     //console.log(res.body.results[0]);
+//     if (!error && res.statusCode == 200) {
+//       console.log(res.body.results[0].geometry.location);
+//     }
+//   });
 
-  // extract the address into object
-  const addrDataModel = {
-    address1: '9 glen doll',
-    address2: '',
-    town: 'east kilbride',
-    city: 'glasgow',
-    postcode: 'g743su',
-  };
-  console.log(geoFormat.geoFormat(addrDataModel, apiKey));
-});
+//   // extract the address into object
+//   const addrDataModel = {
+//     address1: '9 glen doll',
+//     address2: '',
+//     town: 'east kilbride',
+//     city: 'glasgow',
+//     postcode: 'g743su',
+//   };
+//   console.log(geoFormat.geoFormat(addrDataModel, apiKey));
+// });
 
 module.exports = router;
