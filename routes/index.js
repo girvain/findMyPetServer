@@ -3,6 +3,13 @@ var router = express.Router();
 var Pet = require('../models/petModel');
 const needle = require('needle');
 const geoFormat = require('../utils/geoFormatter');
+const result = require('dotenv').config();
+//module for getting enviroment variables. aws will take these automatically
+if (result.error) {
+  throw result.error;
+}
+
+const apiKey = process.env.GOOGLE_MAP_API_KEY;
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -67,7 +74,6 @@ router.post('/add-pet', (req, res, next) => {
     city: newPet.city,
     postcode: newPet.postcode,
   };
-  const apiKey = 'AIzaSyBTeTxxRv1A90-82vUJ0H-pKNHTNx7DE_A';
 
   const mapURL = geoFormat.geoFormat(addrDataModel, apiKey);
 
