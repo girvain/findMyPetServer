@@ -51,7 +51,7 @@ const PetSchema = new mongoose.Schema({
   lng: {
     type: String,
   },
-  petPictureURL: {
+  pictureKey: {
     type: String,
   },
   iconUrl: {

@@ -56,7 +56,7 @@ router.post('/add-pet', (req, res, next) => {
     phoneNo: req.body.phoneNo,
     lat: req.body.lat,
     lng: req.body.lng,
-    petPictureUrl: req.body.petPictureURL,
+    pictureKey: req.body.pictureKey,
     iconUrl: '../assets/pawprint.png',
   };
   // use geoFormat to get the mapAPI format
@@ -97,7 +97,7 @@ router.post('/add-pet', (req, res, next) => {
     .catch(function(err) {
       console.log('Error HTTP request to Google Map API request!');
     });
-  res.send('animal added');
+  res.json({ result: 200 });
 });
 
 // router.get('/get-geo', (req, res, next) => {
