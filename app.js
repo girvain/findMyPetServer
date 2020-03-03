@@ -22,7 +22,6 @@ const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
 var awsRouter = require('./routes/aws');
 
 var app = express();
@@ -35,7 +34,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 app.use('/aws', awsRouter);
 
 module.exports = app;

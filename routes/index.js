@@ -11,11 +11,6 @@ if (result.error) {
 
 const apiKey = process.env.GOOGLE_MAP_API_KEY;
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.send({ name: 'gavin ross' });
-});
-
 router.get('/all', (req, res, next) => {
   Pet.find({}, (err, pets) => {
     if (err) return next(err);
