@@ -6,11 +6,14 @@ const mongoose = require('mongoose');
 const aws = require('aws-sdk');
 const uuidv1 = require('uuid/v1');
 var cors = require('cors');
-const result = require('dotenv').config();
-//module for getting enviroment variables. aws will take these automatically
-if (result.error) {
-  throw result.error;
-}
+
+// ======= Taken out as not used by heroku! ========
+// const result = require('dotenv').config();
+// //module for getting enviroment variables. aws will take these automatically
+// if (result.error) {
+//   throw result.error;
+// }
+// =================================================
 
 // connect to mongo with mongoose
 mongoose.connect(process.env.MONGO_PASS);

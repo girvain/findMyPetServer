@@ -1,0 +1,397 @@
+Info 0    [16:54:8.466] Starting TS Server
+Info 1    [16:54:8.467] Version: 3.5.3
+Info 2    [16:54:8.467] Arguments: /usr/local/Cellar/node/12.6.0/bin/node /usr/local/bin/tsserver --logFile /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/pj/v2sjfs5j5973950byfn0k6qm0000gn/T/dd8a242bccd5eb969ac9e5ffb9020e75/tscancellation*
+Info 3    [16:54:8.467] Platform: darwin NodeVersion: 12 CaseSensitive: false
+Info 4    [16:54:8.484] Search path: /Users/gavinross/programming/NodeStuff/findMyPetServerAPI
+Info 5    [16:54:8.485] For info: /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/app.js :: No config files found.
+Info 6    [16:54:8.492] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 7    [16:54:13.756] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 5264ms
+Info 8    [16:54:13.756] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 9    [16:54:13.756] 	Files (379)
+
+Info 10   [16:54:13.756] -----------------------------------------------
+Info 11   [16:58:22.13] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 12   [16:58:22.104] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true Elapsed: 91ms
+Info 13   [16:58:22.104] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 14   [16:58:22.104] 	Files (379)
+
+Info 15   [16:58:22.104] -----------------------------------------------
+Info 16   [16:58:24.700] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 17   [16:58:24.718] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false Elapsed: 18ms
+Info 18   [16:58:24.718] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 19   [16:58:24.718] 	Files (379)
+
+Info 20   [16:58:24.718] -----------------------------------------------
+Info 21   [16:58:24.766] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 22   [16:58:24.782] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false Elapsed: 16ms
+Info 23   [16:58:24.782] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 24   [16:58:24.782] 	Files (379)
+
+Info 25   [16:58:24.782] -----------------------------------------------
+Info 26   [16:58:24.784] getCompletionData: Get current token: 0
+Info 27   [16:58:24.784] getCompletionData: Is inside comment: 0
+Info 28   [16:58:24.784] getCompletionData: Get previous token 1: 0
+Info 29   [16:58:24.785] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 30   [16:58:24.785] Returning an empty list because completion was requested in an invalid position.
+Info 31   [16:58:24.871] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 32   [16:58:24.888] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false Elapsed: 17ms
+Info 33   [16:58:24.888] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 34   [16:58:24.888] 	Files (379)
+
+Info 35   [16:58:24.888] -----------------------------------------------
+Info 36   [16:58:24.888] getCompletionData: Get current token: 0
+Info 37   [16:58:24.888] getCompletionData: Is inside comment: 0
+Info 38   [16:58:24.888] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 39   [16:58:26.363] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 40   [16:58:26.378] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false Elapsed: 15ms
+Info 41   [16:58:26.378] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 42   [16:58:26.378] 	Files (379)
+
+Info 43   [16:58:26.378] -----------------------------------------------
+Info 44   [16:58:26.379] getCompletionData: Get current token: 0
+Info 45   [16:58:26.379] getCompletionData: Is inside comment: 0
+Info 46   [16:58:26.379] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 47   [16:58:30.109] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 48   [16:58:30.129] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false Elapsed: 20ms
+Info 49   [16:58:30.130] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 50   [16:58:30.130] 	Files (379)
+
+Info 51   [16:58:30.130] -----------------------------------------------
+Info 52   [16:58:30.130] getCompletionData: Get current token: 0
+Info 53   [16:58:30.130] getCompletionData: Is inside comment: 0
+Info 54   [16:58:30.130] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 55   [16:58:30.194] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 56   [16:58:30.212] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 8 structureChanged: false Elapsed: 18ms
+Info 57   [16:58:30.212] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 58   [16:58:30.212] 	Files (379)
+
+Info 59   [16:58:30.212] -----------------------------------------------
+Info 60   [16:58:30.212] getCompletionData: Get current token: 0
+Info 61   [16:58:30.212] getCompletionData: Is inside comment: 0
+Info 62   [16:58:30.212] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 63   [16:58:30.373] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 64   [16:58:30.393] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 9 structureChanged: false Elapsed: 20ms
+Info 65   [16:58:30.393] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 66   [16:58:30.393] 	Files (379)
+
+Info 67   [16:58:30.393] -----------------------------------------------
+Info 68   [16:58:30.393] getCompletionData: Get current token: 0
+Info 69   [16:58:30.393] getCompletionData: Is inside comment: 0
+Info 70   [16:58:30.393] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 71   [16:58:30.515] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 72   [16:58:30.533] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 10 structureChanged: false Elapsed: 18ms
+Info 73   [16:58:30.533] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 74   [16:58:30.533] 	Files (379)
+
+Info 75   [16:58:30.533] -----------------------------------------------
+Info 76   [16:58:30.534] getCompletionData: Get current token: 0
+Info 77   [16:58:30.534] getCompletionData: Is inside comment: 0
+Info 78   [16:58:30.534] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 79   [16:58:30.839] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 80   [16:58:30.854] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 11 structureChanged: false Elapsed: 15ms
+Info 81   [16:58:30.854] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 82   [16:58:30.854] 	Files (379)
+
+Info 83   [16:58:30.854] -----------------------------------------------
+Info 84   [16:58:31.79] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 85   [16:58:31.97] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 12 structureChanged: false Elapsed: 18ms
+Info 86   [16:58:31.98] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 87   [16:58:31.98] 	Files (379)
+
+Info 88   [16:58:31.98] -----------------------------------------------
+Info 89   [16:58:31.99] getCompletionData: Get current token: 0
+Info 90   [16:58:31.99] getCompletionData: Is inside comment: 0
+Info 91   [16:58:31.99] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 92   [16:58:31.210] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 93   [16:58:31.219] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 13 structureChanged: false Elapsed: 9ms
+Info 94   [16:58:31.219] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 95   [16:58:31.219] 	Files (379)
+
+Info 96   [16:58:31.219] -----------------------------------------------
+Info 97   [16:58:31.220] getCompletionData: Get current token: 0
+Info 98   [16:58:31.220] getCompletionData: Is inside comment: 0
+Info 99   [16:58:31.220] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 100  [16:58:31.514] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 101  [16:58:31.542] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 14 structureChanged: false Elapsed: 27ms
+Info 102  [16:58:31.542] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 103  [16:58:31.542] 	Files (379)
+
+Info 104  [16:58:31.542] -----------------------------------------------
+Info 105  [16:58:31.543] getCompletionData: Get current token: 0
+Info 106  [16:58:31.543] getCompletionData: Is inside comment: 0
+Info 107  [16:58:31.543] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 108  [16:58:31.914] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 109  [16:58:31.926] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 15 structureChanged: false Elapsed: 12ms
+Info 110  [16:58:31.926] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 111  [16:58:31.926] 	Files (379)
+
+Info 112  [16:58:31.926] -----------------------------------------------
+Info 113  [16:58:35.229] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 114  [16:58:35.245] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 16 structureChanged: false Elapsed: 16ms
+Info 115  [16:58:35.245] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 116  [16:58:35.246] 	Files (379)
+
+Info 117  [16:58:35.246] -----------------------------------------------
+Info 118  [16:58:35.246] getCompletionData: Get current token: 0
+Info 119  [16:58:35.246] getCompletionData: Is inside comment: 0
+Info 120  [16:58:35.246] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 121  [16:58:35.409] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 122  [16:58:35.420] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 17 structureChanged: false Elapsed: 11ms
+Info 123  [16:58:35.420] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 124  [16:58:35.420] 	Files (379)
+
+Info 125  [16:58:35.420] -----------------------------------------------
+Info 126  [16:58:35.420] getCompletionData: Get current token: 0
+Info 127  [16:58:35.420] getCompletionData: Is inside comment: 0
+Info 128  [16:58:35.420] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 129  [16:58:35.854] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 130  [16:58:35.866] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 18 structureChanged: false Elapsed: 12ms
+Info 131  [16:58:35.867] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 132  [16:58:35.867] 	Files (379)
+
+Info 133  [16:58:35.867] -----------------------------------------------
+Info 134  [16:58:35.930] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 135  [16:58:35.947] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 19 structureChanged: false Elapsed: 17ms
+Info 136  [16:58:35.947] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 137  [16:58:35.947] 	Files (379)
+
+Info 138  [16:58:35.947] -----------------------------------------------
+Info 139  [16:58:35.948] getCompletionData: Get current token: 0
+Info 140  [16:58:35.948] getCompletionData: Is inside comment: 0
+Info 141  [16:58:35.948] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 142  [16:58:36.4] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 143  [16:58:36.32] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 20 structureChanged: false Elapsed: 28ms
+Info 144  [16:58:36.33] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 145  [16:58:36.33] 	Files (379)
+
+Info 146  [16:58:36.33] -----------------------------------------------
+Info 147  [16:58:36.33] getCompletionData: Get current token: 0
+Info 148  [16:58:36.33] getCompletionData: Is inside comment: 0
+Info 149  [16:58:36.33] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 150  [16:58:36.140] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 151  [16:58:36.167] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 21 structureChanged: false Elapsed: 27ms
+Info 152  [16:58:36.167] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 153  [16:58:36.167] 	Files (379)
+
+Info 154  [16:58:36.167] -----------------------------------------------
+Info 155  [16:58:36.167] getCompletionData: Get current token: 0
+Info 156  [16:58:36.167] getCompletionData: Is inside comment: 0
+Info 157  [16:58:36.167] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 158  [16:58:36.472] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 159  [16:58:36.489] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 22 structureChanged: false Elapsed: 17ms
+Info 160  [16:58:36.489] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 161  [16:58:36.489] 	Files (379)
+
+Info 162  [16:58:36.489] -----------------------------------------------
+Info 163  [16:58:36.499] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 164  [16:58:36.532] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 23 structureChanged: false Elapsed: 32ms
+Info 165  [16:58:36.532] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 166  [16:58:36.532] 	Files (379)
+
+Info 167  [16:58:36.533] -----------------------------------------------
+Info 168  [16:58:36.533] getCompletionData: Get current token: 0
+Info 169  [16:58:36.533] getCompletionData: Is inside comment: 0
+Info 170  [16:58:36.533] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 171  [16:58:36.550] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 172  [16:58:36.577] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 24 structureChanged: false Elapsed: 27ms
+Info 173  [16:58:36.577] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 174  [16:58:36.577] 	Files (379)
+
+Info 175  [16:58:36.577] -----------------------------------------------
+Info 176  [16:58:36.578] getCompletionData: Get current token: 0
+Info 177  [16:58:36.578] getCompletionData: Is inside comment: 0
+Info 178  [16:58:36.578] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 179  [16:58:36.709] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 180  [16:58:36.727] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 25 structureChanged: false Elapsed: 17ms
+Info 181  [16:58:36.727] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 182  [16:58:36.727] 	Files (379)
+
+Info 183  [16:58:36.727] -----------------------------------------------
+Info 184  [16:58:36.727] getCompletionData: Get current token: 0
+Info 185  [16:58:36.727] getCompletionData: Is inside comment: 0
+Info 186  [16:58:36.727] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 187  [16:58:36.907] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 188  [16:58:36.927] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 26 structureChanged: false Elapsed: 20ms
+Info 189  [16:58:36.927] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 190  [16:58:36.927] 	Files (379)
+
+Info 191  [16:58:36.927] -----------------------------------------------
+Info 192  [16:58:36.928] getCompletionData: Get current token: 0
+Info 193  [16:58:36.928] getCompletionData: Is inside comment: 0
+Info 194  [16:58:36.928] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 195  [16:58:37.198] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 196  [16:58:37.216] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 27 structureChanged: false Elapsed: 18ms
+Info 197  [16:58:37.216] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 198  [16:58:37.216] 	Files (379)
+
+Info 199  [16:58:37.216] -----------------------------------------------
+Info 200  [16:58:37.261] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 201  [16:58:37.286] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 28 structureChanged: false Elapsed: 25ms
+Info 202  [16:58:37.286] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 203  [16:58:37.286] 	Files (379)
+
+Info 204  [16:58:37.286] -----------------------------------------------
+Info 205  [16:58:37.287] getCompletionData: Get current token: 0
+Info 206  [16:58:37.287] getCompletionData: Is inside comment: 0
+Info 207  [16:58:37.288] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 208  [16:58:37.460] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 209  [16:58:37.477] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 29 structureChanged: false Elapsed: 17ms
+Info 210  [16:58:37.477] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 211  [16:58:37.477] 	Files (379)
+
+Info 212  [16:58:37.477] -----------------------------------------------
+Info 213  [16:58:37.477] getCompletionData: Get current token: 0
+Info 214  [16:58:37.477] getCompletionData: Is inside comment: 0
+Info 215  [16:58:37.477] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 216  [16:58:37.850] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 217  [16:58:37.861] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 30 structureChanged: false Elapsed: 11ms
+Info 218  [16:58:37.861] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 219  [16:58:37.861] 	Files (379)
+
+Info 220  [16:58:37.861] -----------------------------------------------
+Info 221  [16:58:38.424] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 222  [16:58:38.441] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 31 structureChanged: false Elapsed: 17ms
+Info 223  [16:58:38.441] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 224  [16:58:38.441] 	Files (379)
+
+Info 225  [16:58:38.441] -----------------------------------------------
+Info 226  [16:58:38.441] getCompletionData: Get current token: 0
+Info 227  [16:58:38.441] getCompletionData: Is inside comment: 0
+Info 228  [16:58:38.441] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 229  [16:58:38.577] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 230  [16:58:38.587] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 32 structureChanged: false Elapsed: 10ms
+Info 231  [16:58:38.587] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 232  [16:58:38.587] 	Files (379)
+
+Info 233  [16:58:38.587] -----------------------------------------------
+Info 234  [16:58:38.587] getCompletionData: Get current token: 0
+Info 235  [16:58:38.587] getCompletionData: Is inside comment: 0
+Info 236  [16:58:38.587] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 237  [16:58:38.822] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 238  [16:58:38.831] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 33 structureChanged: false Elapsed: 9ms
+Info 239  [16:58:38.831] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 240  [16:58:38.831] 	Files (379)
+
+Info 241  [16:58:38.831] -----------------------------------------------
+Info 242  [16:58:38.832] getCompletionData: Get current token: 0
+Info 243  [16:58:38.832] getCompletionData: Is inside comment: 0
+Info 244  [16:58:38.832] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 245  [16:58:39.155] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 246  [16:58:39.165] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 34 structureChanged: false Elapsed: 10ms
+Info 247  [16:58:39.166] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 248  [16:58:39.166] 	Files (379)
+
+Info 249  [16:58:39.166] -----------------------------------------------
+Info 250  [16:58:39.166] getCompletionData: Get current token: 0
+Info 251  [16:58:39.166] getCompletionData: Is inside comment: 0
+Info 252  [16:58:39.166] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 253  [16:58:39.425] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 254  [16:58:39.437] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 35 structureChanged: false Elapsed: 12ms
+Info 255  [16:58:39.438] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 256  [16:58:39.438] 	Files (379)
+
+Info 257  [16:58:39.438] -----------------------------------------------
+Info 258  [16:58:39.438] getCompletionData: Get current token: 0
+Info 259  [16:58:39.438] getCompletionData: Is inside comment: 0
+Info 260  [16:58:39.438] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 261  [16:58:39.622] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 262  [16:58:39.643] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 36 structureChanged: false Elapsed: 21ms
+Info 263  [16:58:39.643] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 264  [16:58:39.643] 	Files (379)
+
+Info 265  [16:58:39.643] -----------------------------------------------
+Info 266  [16:58:39.643] getCompletionData: Get current token: 0
+Info 267  [16:58:39.643] getCompletionData: Is inside comment: 0
+Info 268  [16:58:39.643] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 269  [16:58:41.245] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 270  [16:58:41.257] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 37 structureChanged: false Elapsed: 12ms
+Info 271  [16:58:41.257] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 272  [16:58:41.257] 	Files (379)
+
+Info 273  [16:58:41.257] -----------------------------------------------
+Info 274  [16:58:42.602] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 275  [16:58:42.610] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 38 structureChanged: false Elapsed: 8ms
+Info 276  [16:58:42.610] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 277  [16:58:42.610] 	Files (379)
+
+Info 278  [16:58:42.610] -----------------------------------------------
+Info 279  [16:58:44.834] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 280  [16:58:44.843] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 39 structureChanged: false Elapsed: 9ms
+Info 281  [16:58:44.843] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 282  [16:58:44.843] 	Files (379)
+
+Info 283  [16:58:44.843] -----------------------------------------------
+Info 284  [16:58:45.253] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 285  [16:58:45.263] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 40 structureChanged: false Elapsed: 10ms
+Info 286  [16:58:45.263] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 287  [16:58:45.263] 	Files (379)
+
+Info 288  [16:58:45.263] -----------------------------------------------
+Info 289  [16:58:46.135] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 290  [16:58:46.143] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 41 structureChanged: false Elapsed: 8ms
+Info 291  [16:58:46.143] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 292  [16:58:46.143] 	Files (379)
+
+Info 293  [16:58:46.143] -----------------------------------------------
+Info 294  [16:58:50.408] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 295  [16:58:50.419] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 42 structureChanged: false Elapsed: 11ms
+Info 296  [16:58:50.419] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 297  [16:58:50.419] 	Files (379)
+
+Info 298  [16:58:50.419] -----------------------------------------------
+Info 299  [16:58:56.171] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 300  [16:58:56.183] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 43 structureChanged: false Elapsed: 11ms
+Info 301  [16:58:56.183] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 302  [16:58:56.183] 	Files (379)
+
+Info 303  [16:58:56.183] -----------------------------------------------
+Info 304  [16:58:56.323] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 305  [16:58:56.335] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 44 structureChanged: false Elapsed: 12ms
+Info 306  [16:58:56.336] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 307  [16:58:56.336] 	Files (379)
+
+Info 308  [16:58:56.336] -----------------------------------------------
+Info 309  [16:58:56.336] getCompletionData: Get current token: 0
+Info 310  [16:58:56.336] getCompletionData: Is inside comment: 0
+Info 311  [16:58:56.336] getCompletionData: Get previous token 1: 0
+Info 312  [16:58:56.336] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 313  [16:58:56.336] Returning an empty list because completion was requested in an invalid position.
+Info 314  [16:58:56.553] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 315  [16:58:56.563] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 45 structureChanged: false Elapsed: 10ms
+Info 316  [16:58:56.563] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 317  [16:58:56.563] 	Files (379)
+
+Info 318  [16:58:56.563] -----------------------------------------------
+Info 319  [16:58:56.563] getCompletionData: Get current token: 0
+Info 320  [16:58:56.563] getCompletionData: Is inside comment: 0
+Info 321  [16:58:56.563] Returning an empty list because completion was inside a regular comment or plain text part of a JsDoc comment.
+Info 322  [16:58:59.558] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 323  [16:58:59.571] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 46 structureChanged: false Elapsed: 13ms
+Info 324  [16:58:59.571] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 325  [16:58:59.571] 	Files (379)
+
+Info 326  [16:58:59.571] -----------------------------------------------
+Info 327  [16:58:59.846] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 328  [16:58:59.856] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 47 structureChanged: false Elapsed: 10ms
+Info 329  [16:58:59.857] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 330  [16:58:59.857] 	Files (379)
+
+Info 331  [16:58:59.857] -----------------------------------------------
+Info 332  [16:59:3.932] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 333  [16:59:3.954] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 48 structureChanged: false Elapsed: 22ms
+Info 334  [16:59:3.954] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 335  [16:59:3.954] 	Files (379)
+
+Info 336  [16:59:3.954] -----------------------------------------------
+Info 337  [16:59:10.351] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 338  [16:59:10.363] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 49 structureChanged: false Elapsed: 12ms
+Info 339  [16:59:10.363] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 340  [16:59:10.363] 	Files (379)
+
+Info 341  [16:59:10.363] -----------------------------------------------
+Info 342  [16:59:11.723] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 343  [16:59:11.747] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 50 structureChanged: false Elapsed: 23ms
+Info 344  [16:59:11.747] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 345  [16:59:11.747] 	Files (379)
+
+Info 346  [16:59:11.747] -----------------------------------------------
