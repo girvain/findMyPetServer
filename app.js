@@ -39,4 +39,8 @@ app.use(cors());
 app.use('/', indexRouter);
 app.use('/aws', awsRouter);
 
+app.listen(PORT, function() {
+  console.log('Express server is listening on port ', PORT);
+});
+
 module.exports = app;
