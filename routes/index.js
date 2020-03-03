@@ -3,11 +3,12 @@ var router = express.Router();
 var Pet = require('../models/petModel');
 const needle = require('needle');
 const geoFormat = require('../utils/geoFormatter');
-const result = require('dotenv').config();
-//module for getting enviroment variables. aws will take these automatically
-if (result.error) {
-  throw result.error;
-}
+
+// const result = require('dotenv').config();
+// //module for getting enviroment variables. aws will take these automatically
+// if (result.error) {
+//   throw result.error;
+// }
 
 const apiKey = process.env.GOOGLE_MAP_API_KEY;
 

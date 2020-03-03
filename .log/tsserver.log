@@ -534,3 +534,87 @@ Info 466  [17:25:48.808] -----------------------------------------------
 Info 467  [17:25:48.808] Structure before ensureProjectForOpenFiles:
 Info 468  [17:25:48.808] Structure after ensureProjectForOpenFiles:
 Info 469  [17:25:48.808] got projects updated in background, updating diagnostics for /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/app.js,/Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/users.js,/Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/index.js
+Info 470  [17:31:33.80] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 471  [17:31:33.96] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 65 structureChanged: false Elapsed: 16ms
+Info 472  [17:31:33.96] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 473  [17:31:33.96] 	Files (378)
+
+Info 474  [17:31:33.96] -----------------------------------------------
+Info 475  [17:35:28.530] Search path: /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes
+Info 476  [17:35:28.530] For info: /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/index.js :: No config files found.
+Info 477  [17:35:37.335] DirectoryWatcher:: Triggered with /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/.#index.js :: WatchInfo: /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes 1 Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 478  [17:35:37.335] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/.#index.js :: WatchInfo: /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes 1 Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 479  [17:35:37.589] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 480  [17:35:38.457] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 66 structureChanged: true Elapsed: 868ms
+Info 481  [17:35:38.457] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 482  [17:35:38.457] 	Files (378)
+
+Info 483  [17:35:38.457] -----------------------------------------------
+Info 484  [17:35:38.458] Structure before ensureProjectForOpenFiles:
+Info 485  [17:35:38.458] Structure after ensureProjectForOpenFiles:
+Info 486  [17:35:38.458] got projects updated in background, updating diagnostics for /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/app.js,/Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/users.js,/Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/index.js
+Info 487  [17:35:39.147] FileWatcher:: Triggered with /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/dotenv/types 0:: WatchInfo: /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/dotenv/types 500 Project: /dev/null/inferredProject1* WatchType: Missing file
+Info 488  [17:35:39.147] Elapsed:: 0ms FileWatcher:: Triggered with /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/dotenv/types 0:: WatchInfo: /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/dotenv/types 500 Project: /dev/null/inferredProject1* WatchType: Missing file
+Info 489  [17:35:39.147] FileWatcher:: Triggered with /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/got/dist/source 0:: WatchInfo: /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/got/dist/source 500 Project: /dev/null/inferredProject1* WatchType: Missing file
+Info 490  [17:35:39.148] Elapsed:: 0ms FileWatcher:: Triggered with /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/got/dist/source 0:: WatchInfo: /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/got/dist/source 500 Project: /dev/null/inferredProject1* WatchType: Missing file
+Info 491  [17:35:39.399] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 492  [17:35:39.412] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 67 structureChanged: false Elapsed: 13ms
+Info 493  [17:35:39.412] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 494  [17:35:39.412] 	Files (378)
+
+Info 495  [17:35:39.412] -----------------------------------------------
+Info 496  [17:35:39.412] Structure before ensureProjectForOpenFiles:
+Info 497  [17:35:39.412] Structure after ensureProjectForOpenFiles:
+Info 498  [17:35:39.412] got projects updated in background, updating diagnostics for /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/app.js,/Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/users.js,/Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/index.js
+Info 499  [17:35:39.826] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 500  [17:35:39.842] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 68 structureChanged: false Elapsed: 16ms
+Info 501  [17:35:39.842] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 502  [17:35:39.842] 	Files (378)
+
+Info 503  [17:35:39.843] -----------------------------------------------
+Info 504  [17:35:40.920] DirectoryWatcher:: Triggered with /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/.#index.js :: WatchInfo: /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes 1 Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 505  [17:35:40.920] Elapsed:: 0ms DirectoryWatcher:: Triggered with /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/.#index.js :: WatchInfo: /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes 1 Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 506  [17:35:41.170] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 507  [17:35:41.892] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 69 structureChanged: true Elapsed: 722ms
+Info 508  [17:35:41.892] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 509  [17:35:41.892] 	Files (378)
+
+Info 510  [17:35:41.892] -----------------------------------------------
+Info 511  [17:35:41.894] Structure before ensureProjectForOpenFiles:
+Info 512  [17:35:41.894] Structure after ensureProjectForOpenFiles:
+Info 513  [17:35:41.894] got projects updated in background, updating diagnostics for /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/app.js,/Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/users.js,/Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/index.js
+Info 514  [17:35:41.896] FileWatcher:: Triggered with /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/got/dist/source 0:: WatchInfo: /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/got/dist/source 500 Project: /dev/null/inferredProject1* WatchType: Missing file
+Info 515  [17:35:41.897] Elapsed:: 0ms FileWatcher:: Triggered with /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/got/dist/source 0:: WatchInfo: /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/got/dist/source 500 Project: /dev/null/inferredProject1* WatchType: Missing file
+Info 516  [17:35:41.897] FileWatcher:: Triggered with /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/dotenv/types 0:: WatchInfo: /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/dotenv/types 500 Project: /dev/null/inferredProject1* WatchType: Missing file
+Info 517  [17:35:41.897] Elapsed:: 0ms FileWatcher:: Triggered with /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/dotenv/types 0:: WatchInfo: /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/dotenv/types 500 Project: /dev/null/inferredProject1* WatchType: Missing file
+Info 518  [17:35:42.150] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 519  [17:35:42.194] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 70 structureChanged: true Elapsed: 44ms
+Info 520  [17:35:42.194] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 521  [17:35:42.194] 	Files (377)
+
+Info 522  [17:35:42.194] -----------------------------------------------
+Info 523  [17:35:42.195] Structure before ensureProjectForOpenFiles:
+Info 524  [17:35:42.195] Structure after ensureProjectForOpenFiles:
+Info 525  [17:35:42.195] got projects updated in background, updating diagnostics for /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/app.js,/Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/users.js,/Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/index.js
+Info 526  [17:35:43.19] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 527  [17:35:43.192] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 71 structureChanged: true Elapsed: 173ms
+Info 528  [17:35:43.192] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 529  [17:35:43.192] 	Files (377)
+
+Info 530  [17:35:43.192] -----------------------------------------------
+Info 531  [17:35:43.193] Structure before ensureProjectForOpenFiles:
+Info 532  [17:35:43.193] Structure after ensureProjectForOpenFiles:
+Info 533  [17:35:43.193] got projects updated in background, updating diagnostics for /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/app.js,/Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/users.js,/Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/index.js
+Info 534  [17:35:44.400] FileWatcher:: Triggered with /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/got/dist/source 0:: WatchInfo: /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/got/dist/source 500 Project: /dev/null/inferredProject1* WatchType: Missing file
+Info 535  [17:35:44.400] Elapsed:: 0ms FileWatcher:: Triggered with /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/got/dist/source 0:: WatchInfo: /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/got/dist/source 500 Project: /dev/null/inferredProject1* WatchType: Missing file
+Info 536  [17:35:44.400] FileWatcher:: Triggered with /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/dotenv/types 0:: WatchInfo: /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/dotenv/types 500 Project: /dev/null/inferredProject1* WatchType: Missing file
+Info 537  [17:35:44.400] Elapsed:: 0ms FileWatcher:: Triggered with /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/dotenv/types 0:: WatchInfo: /users/gavinross/programming/nodestuff/findmypetserverapi/node_modules/dotenv/types 500 Project: /dev/null/inferredProject1* WatchType: Missing file
+Info 538  [17:35:44.655] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 539  [17:35:44.665] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 72 structureChanged: false Elapsed: 10ms
+Info 540  [17:35:44.665] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 541  [17:35:44.665] 	Files (377)
+
+Info 542  [17:35:44.665] -----------------------------------------------
+Info 543  [17:35:44.665] Structure before ensureProjectForOpenFiles:
+Info 544  [17:35:44.665] Structure after ensureProjectForOpenFiles:
+Info 545  [17:35:44.665] got projects updated in background, updating diagnostics for /Users/gavinross/programming/NodeStuff/findMyPetServerAPI/app.js,/Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/users.js,/Users/gavinross/programming/NodeStuff/findMyPetServerAPI/routes/index.js
