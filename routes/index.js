@@ -60,7 +60,7 @@ router.post('/add-pet', (req, res, next) => {
     lat: req.body.lat,
     lng: req.body.lng,
     pictureKey: req.body.pictureKey,
-    iconUrl: '../assets/pawprint.png',
+    iconUrl: './assets/pawprint.png',
   };
   // use geoFormat to get the mapAPI format
   const addrDataModel = {
